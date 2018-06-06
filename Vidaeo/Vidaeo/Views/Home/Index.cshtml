@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Vidaeo</h1>
+    <p class="lead">Your one stop for digital rentals!.</p>
+    @if (User.IsInRole("CanManageMovies")){<p> Welcome Admin!</p>}
+    <p> This is just a test for asp.net mvc </p>
+    <p> Be sure to view the ReadMe for more information on this demo application.</p>
+    <p> There is also information on two test accounts to check out some of the functionality of this app.</p>
+   
+</div>
+
+<div class="row">
+    
+</div>
